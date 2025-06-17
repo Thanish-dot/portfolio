@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Thanish A - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="abc.css">
+  <link rel="abc.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="abc.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+  <div class="home-content">
+    <h1 class="fade-in">Hi, I'm <span>Mohammed Thanish A</span></h1>
+    <h2 class="slide-up">Fresher | Full Stack Python Developer</h2>
+    <p class="fade-in-delay">
+      I build modern, responsive websites and backend systems using Django, React, HTML, CSS, and more.
+    </p>
+    
+    <div class="btn-group">
+      <a href="#projects" class="btn1">View Projects</a>
+      <a href="#contact" class="btn1 outline">Hire Me</a>
+    </div>
+
+    <!-- 🔽 Added Resume and Contact Buttons -->
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('thanish resume.pdf')">
+        My Resume
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info
+      </button>
+    </div>
+
+    <!-- 🔽 Added Social Media Icons -->
+    <div id="socials-container">
+      <img
+        src="/images/linkedin.png"
+        alt="My linkedIn profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/mohammed-thanish-a-alavutheen/'"
+      />
+      <img
+        src="/images/github.png"
+        alt="My github profile"
+        class="icon"
+        onclick="location.href='https://github.com/Thanish-dot'"
+      />
+    </div>
+  </div>
+
+  <div class="home-img bounce-in">
+    <img src="/images/profile.jpeg" alt="Profile Image">
+  </div>
+</section>
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I'm <strong>Mohammed Thanish A</strong>, a passionate <strong>Full Stack Python Developer</strong>. 
+        I specialize in building modern web applications using technologies like Django, React, HTML, CSS, and JavaScript. 
+        I’m committed to writing clean code and designing responsive, user-friendly interfaces.
+      </p>
+      <div class="info-cards">
+        <div class="card">
+          <h3>Backend</h3>
+          <p>Python, Django, SQLite, MySQL</p>
+        </div>
+        <div class="card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Git, VS Code, Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <div class="education-container">
+      <h2 class="section-title fade-in-up">Education</h2>
+      <div class="edu-cards">
+        <div class="edu-card hover-float fade-in-up">
+          <h3>BE-Electrical Electronics Engineering</h3>
+          <p>SNS College of Technology - 8.3 CGPA</p>
+          <span>2021 - 2025</span>
+        </div>
+        <div class="edu-card hover-float fade-in-up delay-1">
+          <h3>HSC</h3>
+          <p>Nirmala Matha Convent Matric Hr Sec School - 84%</p>
+          <span>2020 - 2021</span>
+        </div>
+        <div class="edu-card hover-float fade-in-up delay-2">
+          <h3>SSLC (10th Standard)</h3>
+          <p>Shree Sakthi Matric Hr Sec School - 81%</p>
+          <span>2018 - 2019</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Certificates Section -->
+  <section class="skills-cert" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-in-up">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <span>Python</span>
+          <div class="progress-bar">
+            <div class="progress" style="--value: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Django</span>
+          <div class="progress-bar">
+            <div class="progress" style="--value: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>HTML / CSS</span>
+          <div class="progress-bar">
+            <div class="progress" style="--value: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>JavaScript / React</span>
+          <div class="progress-bar">
+            <div class="progress" style="--value: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>MySQL / SQLite</span>
+          <div class="progress-bar">
+            <div class="progress" style="--value: 75%"></div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title fade-in-up delay-1">Certificate</h2>
+      <div class="cert-grid">
+        <div class="cert-card hover-zoom fade-in-up">
+          <img src="images/login.jpg" alt="Python Certificate">
+             <div class="btn-container">
+    <button class="btn btn-color-2 " onclick="window.open('/prepinsta.pdf')">
+      Link
+     </button>
+       <div class="cert-info">
+          <h3>Python Full Stack Developer</h3>
+          <p>Login360 - Coimbatore • 2025</p>
+          </div>
+        </div> 
+        </div>
+  <div class="cert-card hover-zoom fade-in-up delay-1">
+    <img src="images/pythons.jpg" alt="Python Certificate">
+      <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('/prepinsta.pdf')">
+        Link
+      </button>
+    <div class="cert-info">
+      <h3>prepista prime</h3>
+      <p>2024</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="cert-card hover-zoom fade-in-up delay-2">
+    <img src="images/nptel.jpg" alt="Online Certificate">
+    <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('/iim_merged.pdf')">
+      Link
+    </button>
+    <div class="cert-info">
+      <h3>Online Certificate</h3>
+      <p>2024</p>
+    </div>
+  </div>  
+  </div>  
+    <div class="cert-card hover-zoom fade-in-up delay-2">
+    <img src="images/bannari.jpg" alt="Django Certificate">
+    <div class="btn-container">
+     <button class="btn btn-color-2" onclick="window.open('/bannari.pdf')">
+      Link
+     </button>
+    <div class="cert-info">
+      <h3>Workshop</h3>
+      <p>2024</p>
+    </div>
+  </div>  
+</div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title fade-in-up">Projects</h2>
+      <div class="project-grid">
+        <div class="flip-card fade-in-up">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="images/fuel.jpg" alt="Fuel Price Prediction">
+              <h3>Fuel Price Prediction</h3>
+            </div>
+            <div class="flip-back">
+              <h3>Fuel Price Prediction</h3>
+              <p>This mini project focuses on predicting future fuel prices based on historical data using Python.</p>
+              <a href="https://github.com/Thanish-dot/fuel-price-prediction" target="_blank" class="btn">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card fade-in-up delay-1">
+          <div class="flip-inner">
+          <div class="flip-front">
+            <img src="images/medical.jpg" alt="Record System">
+            <h3>Hospital Patient Record System</h3>
+            </div>
+            <div class="flip-back">
+             <h3>Hospital Patient Record System</h3>
+            <p> To manage and track patient details efficiently through a user-friendly interface.</p>
+            <a href="https://github.com/Thanish-dot/Hospital-patient-Record-System" target="_blank" class="btn">View Code</a>
+          </div>
+        </div>
+        </div>
+        <div class="flip-card fade-in-up delay-2">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="images/online.jpg" alt="Voting System">
+              <h3>Online Voting System</h3>
+            </div>
+            <div class="flip-back">
+              <h3>Online Voting System</h3>
+              <p>An Online Voting System built with Django that enables secure and efficient digital voting for elections.</p>
+              <a href="https://github.com/Thanish-dot/online-voting-system" target="_blank" class="btn">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card fade-in-up delay-2">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="images/movie.jpg" alt="Movie Website">
+              <h3>Movie Recommendation Website</h3>
+            </div>
+            <div class="flip-back">
+              <h3>Movie Recommendation Website</h3>
+              <p>A Movie Recommendation Website built with HTML, CSS, and Bootstrap to showcase and suggest movies across various categories with a responsive design.</p>
+              <a href="https://github.com/Thanish-dot/movie-recommendation" target="_blank" class="btn">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="float-card fade-in-up delay-3">
+          <img src="/image/port.jpg" alt="Portfolio Site">
+          <div class="float-info">
+            <h3>My Portfolio</h3>
+            <p>Responsive one‑page portfolio built with HTML, CSS, Bootstrap.</p>
+            <a href="http://127.0.0.1:5501/front.html" target="_blank" class="btn outline">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-info fade-in-left">
+        <h2>Get In Touch</h2>
+        <ul class="info-list">
+          <li>
+            <i class="fas fa-user"></i>
+            <span>Mohammed Thanish A</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:sathiyajayasankar195@gmail.com">ma7940652@gmail.com</a>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+916379400528">+91 6379400528</a>
+          </li>
+          <li class="socials">
+            <a href="/https://www.linkedin.com/in/mohammed-thanish-a-alavutheen/'" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Thanish-dot" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form fade-in-right" action="https://formspree.io/f/yourID" method="POST">
+        <h2>Send a Message</h2>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Mohammed Thanish A. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sathiyapriya2002/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/sathiya12342" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="footer-credit">Designed by Mohammed thanish💛</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
